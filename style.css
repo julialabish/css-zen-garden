@@ -1,0 +1,62 @@
+header {
+	background-image: url('sakura-blossom-background.jpg');
+	height: 250px;
+	opacity: 0.8;
+}
+
+
+header h1 {
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 35px;
+}
+
+header h2 {
+	color: black;
+	font-size: 35px;
+	text-align: center;
+}
+
+.sidebar {
+	float: left;
+
+}
+
+.sidebar nav ul li {
+	font-size: 21px;
+	border-bottom: 1px solid;
+	padding-bottom: 8px;
+	color: grey;
+	width: 232px;
+}
+
+.sidebar nav ul li a {
+	margin-top: 5px;
+	padding-top: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.page-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.page-wrapper>* {
+	flex: 1 100%;
+}
+
+.page-wrapper #zen-supporting {
+	flex: 1 70%;
+	order: 2;
+}
+
+.page-wrapper aside {
+	flex: 1 auto;
+	order: 1;
+}
+
+.page-wrapper .intro {
+	border-bottom: 1px solid;
+}
